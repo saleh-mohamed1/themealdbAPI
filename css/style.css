@@ -1,0 +1,103 @@
+/* *######### General Styles ##########*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:sans-serif ;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+/* nav bar */
+#ulStyeld li  {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+/*end nav bar */
+/* css login */ 
+#loginDisign{
+  margin: 10px 0 ;
+  
+}
+.corsr{
+  cursor: pointer;
+}
+#loginDisign input{
+  padding: 10px 0;
+  padding-left: 7px;
+}
+/* css login */ 
+/* css category */
+.categoryList{
+  background-color: #ffffff9a;
+  transform: translateY(100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  transition: transform 1s;
+}
+#categoryList:hover .categoryList{
+  transform: translateY(0);
+}
+/* css category */
+/* idList */
+.categoryList{
+  background-color: #ffffff9a;
+  transform: translateY(100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  transition: transform 1s;
+}
+#categoryList:hover .categoryList{
+  transform: translateY(0);
+}
+
+/*idList  */
+/* this aabout ingredients */
+#ingred{
+  cursor: pointer;
+}
+/* this aabout ingredients */
+#loadMain{
+  z-index: 800;
+}
+.nav-tab{
+  z-index: 50;
+}
+.logo{
+  width: 60px;
+}
